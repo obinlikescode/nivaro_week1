@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Your webpage content goes here -->
+    <h1><b>hello world</b></h1>
+
+    <button id="myButton">Click Me!</button>
+
+    <!--you can also put in javascript file without script tags-->
+    <script>
+      document
+        .getElementById("myButton")
+        .addEventListener("click", function () {
+          alert("You clicked the button!");
+        });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
